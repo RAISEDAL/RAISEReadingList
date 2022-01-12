@@ -1,0 +1,43 @@
+name: Paper Review
+description: Document summary of a paer
+title: 
+body:
+  - type: input
+    id: publisher
+    attibutes:
+      label: Publisher
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link to The Paper
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Name of The Authors
+    validations:
+      required: true
+      
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+      
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Contributions of The Paper
+    validations:
+      required: true
+      
+  - type: textarea
+    id: comments
+    attributes:
+      label: Comments
+    validations:
+      required: false
