@@ -1,10 +1,10 @@
 name: Paper Review
 description: Document summary of a paer
-title: 
+title: "Paper Review: "
 body:
   - type: input
     id: publisher
-    attibutes:
+    attributes:
       label: Publisher
     validations:
       required: true
