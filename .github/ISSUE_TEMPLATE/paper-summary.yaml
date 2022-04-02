@@ -20,6 +20,12 @@ body:
       label: Name of The Authors
     validations:
       required: true
+  - type: input
+    id: years
+    attributes:
+      label: Year of Publication
+    validations:
+      required: true
       
   - type: textarea
     id: summary
