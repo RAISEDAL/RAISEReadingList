@@ -1,5 +1,5 @@
 name: Paper Review
-description: Document summary of a paer
+description: Document summary of a paper
 title: "Paper Review: "
 body:
   - type: input
